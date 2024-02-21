@@ -1,0 +1,36 @@
+@import './modalAddClient.css';
+@import './header.css';
+@import './sectionClients.css';
+@import './renderClients.css';
+@import './editClient.css';
+@import './modalConfirm.css';
+@import './createContact.css';
+@import './renderContact.css';
+@import './preloader.css';
+@import './pageClient.css';
+@import './validateContact.css';
+
+:root {
+  --main-color: #ffffff;
+  --second-color: #f5f5f5;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #9873ff;
+}
+
+[type='submit']:not(:disabled) {
+  cursor: pointer;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  background-color: var(--second-color);
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid gray;
+}

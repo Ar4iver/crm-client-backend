@@ -1,0 +1,10 @@
+.wrapper__photo-client {
+  width: 300px;
+  height: 300px;
+}
+
+.client__photo-page {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

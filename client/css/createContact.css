@@ -1,0 +1,27 @@
+.wrapper__contact-add {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.contactDel__svg {
+  display: flex;
+}
+
+.modal__contacts--active {
+  background-color: #c8c5d189;
+  padding-top: 25px;
+}
+
+.contact__btn-delete {
+  border: 1px solid #c8c5d1;
+}
+
+.input__contact {
+  border: 1px solid #c8c5d1;
+}
+
+.select__create-contacts {
+  border: 1px solid #c8c5d1;
+  padding: 5px;
+}

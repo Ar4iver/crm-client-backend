@@ -1,0 +1,35 @@
+.section__clients {
+  margin-bottom: 40px;
+}
+
+.table__body {
+  background-color: var(--main-color);
+}
+
+.btn__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.addClient {
+  display: flex;
+}
+
+.btn-outline-success {
+  display: flex;
+  align-items: center;
+}
+
+.addClient {
+  margin-right: 10px;
+}
+
+.title__col-table {
+  cursor: pointer;
+  font-style: normal;
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+

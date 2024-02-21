@@ -1,0 +1,13 @@
+.modalConfirmTitle {
+  margin: auto;
+}
+
+.modalFormBody__confirm {
+  margin: auto;
+  max-width: 260px;
+  text-align: center;
+}
+
+.modal__form-header {
+    margin-bottom: 1rem;
+}

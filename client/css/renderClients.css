@@ -1,0 +1,90 @@
+.clientId {
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.clientFio {
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.clientCreatedAt {
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.clientCreatedAt > span {
+  color: #b0b0b0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 5px;
+}
+
+.clientUpdatedAt {
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.clientUpdatedAt > span {
+  color: #b0b0b0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 5px;
+}
+
+.removeBtn {
+  cursor: pointer;
+}
+
+.changeBtn {
+  cursor: pointer;
+}
+
+.client__contact {
+  display: flex;
+  gap: 7px;
+}
+
+.table > :not(caption) > * > * {
+  border: none;
+}
+
+.client__contact {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  max-width: 130px;
+}
+
+.load-svg svg {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.client__page-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}

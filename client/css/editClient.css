@@ -1,0 +1,63 @@
+.modal__title-id {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b0b0b0;
+}
+
+.error-message__edit {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #f06a4d;
+  margin-bottom: 10px;
+}
+.error {
+  border-color: red;
+}
+
+.icon__load-span {
+  display: flex;
+  gap: 5px;
+}
+
+.save__btn-load-after {
+  background-color: #372a5d;
+  gap: 5px;
+}
+
+.icon__load-span svg {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-content {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  animation-name: slideInDown;
+  animation-duration: 0.5s;
+}
+
+@keyframes slideInDown {
+  0% {
+    top: -100%;
+    opacity: 0;
+  }
+  100% {
+    top: 5%;
+    opacity: 1;
+  }
+}

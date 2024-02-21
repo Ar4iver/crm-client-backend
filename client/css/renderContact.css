@@ -1,0 +1,19 @@
+.contact__svgIcon {
+  cursor: pointer;
+}
+
+.contact__count-wrapper {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: 1px solid #9873ff;
+}
+
+.span__count {
+  font-size: 10px;
+}

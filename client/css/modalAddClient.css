@@ -1,0 +1,199 @@
+.clientAddSvg {
+  margin-right: 5px;
+}
+
+/* modal */
+
+.modal-header {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  border-bottom: none;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: none;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.form-control {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.form-floating > .form-control {
+  height: 3em;
+}
+
+.form-floating > .form-control:focus {
+  padding-top: 2.5rem;
+  padding-bottom: 0.625rem;
+}
+
+.form-floating > label {
+  padding-left: 0px;
+  color: #b0b0b0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.modal__fields {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.modal__contacts {
+  background-color: #c8c5d1;
+  text-align: center;
+}
+
+.contacts__add {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.wrapper__contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.require-span {
+  color: #9873ff;
+}
+
+.modal__btn-cancell {
+  font-style: normal;
+  color: #333333;
+  border: none;
+  background-color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+
+.my__modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.modal__body {
+  min-height: 100%;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.btn__save {
+  width: 149px;
+  background-color: #9873ff;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:disabled {
+  background-color: #372a5d;
+  opacity: 1;
+}
+
+.btn__save:hover {
+  background-color: #372a5d;
+}
+
+.contacts__add-svg {
+  display: flex;
+  margin-right: 5px;
+}
+
+.wrapperButton {
+  display: flex;
+  justify-content: center;
+}
+
+.client-add__svg {
+  display: flex;
+  margin-right: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, fill 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  color: #9873ff;
+  border-color: #9873ff;
+}
+
+.btn path {
+  transition: color 0.15s ease-in-out, fill 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  fill: #9873ff;
+}
+
+.btn:hover {
+  transition: color 0.15s ease-in-out, fill 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  color: #ffffff;
+  background-color: #372a5d;
+}
+
+.btn:hover path {
+  transition: color 0.15s ease-in-out, fill 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  fill: #ffffff;
+}
+
+.btn__save {
+  color: #ffffff;
+}
+
+.errors-message {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.errors-message > span {
+  color: red;
+}
